@@ -17,4 +17,4 @@
     * После успешного добавления в базу данных отправится ответ со статусом 200 и ID нового добавленного элемента в базу данных.
 
 Иначе говоря, архитектуру можно было представить так:
-![alt text](https://github.com/ilia2108/Azure4HacksDemo/PhotosForRepo/arch.png"Architecture")
+![alt text](https://github.com/ilia2108/Azure4HacksDemo/blob/master/PhotosForRepo/arch.png "Architecture")
