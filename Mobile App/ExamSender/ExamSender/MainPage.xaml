@@ -1,7 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ExamSender.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <ScrollView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="10,10,10,10">
+            <Label Text="Имя" Margin="0,0,0,5"/>
+            <Entry x:Name="Name"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   Margin="0,0,0,10"
+            />
+
+            <Label Text="Фамилия" Margin="0,0,0,5"/>
+            <Entry x:Name="Surname"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   Margin="0,0,0,10"
+            />
+
+            <Label Text="Работа" Margin="0,0,0,5"/>
+            <Editor x:Name="Work"
+                    Margin="0,0,0,10"
+                    WidthRequest="200"
+                    HeightRequest="100"
+                    HorizontalOptions="StartAndExpand"
+            />
+
+            <Button x:Name="Send"
+                    Text="Отправить на проверку"
+                    
+                    Clicked="OnSendClicked"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
