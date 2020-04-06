@@ -1,0 +1,14 @@
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/bin/Debug/netstandard2.0/ExamSender.deps.json
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/bin/Debug/netstandard2.0/ExamSender.dll
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/bin/Debug/netstandard2.0/ref/ExamSender.dll
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/bin/Debug/netstandard2.0/ExamSender.pdb
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ExamSender.csprojAssemblyReference.cache
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ExamSender.csproj.CoreCompileInputs.cache
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ExamSender.AssemblyInfoInputs.cache
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ExamSender.AssemblyInfo.cs
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ExamSender.dll
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ref/ExamSender.dll
+/Users/ryabuily/Desktop/Azure4HacksDemo/Mobile App/ExamSender/ExamSender/obj/Debug/netstandard2.0/ExamSender.pdb
