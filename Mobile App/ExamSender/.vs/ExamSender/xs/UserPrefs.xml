@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{D664A7B0-F295-4F67-92F9-5489ED0B9979}|Default">
+  <MonoDevelop.Ide.ItemProperties.ExamSender FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ExamSender.iOS FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ExamSender.Android FirstBuild="True" />
+</Properties>
