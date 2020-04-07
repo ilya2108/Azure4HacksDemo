@@ -19,7 +19,7 @@ namespace ExamSender
         /// <summary>
         /// Link to the Azure Logic App (to be added)
         /// </summary>
-        private const string link = "https://prod-00.northeurope.logic.azure.com:443/workflows/89f2a07ab3b6498387819131fe1db8de/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=RRA6YXgCxsmOnkUN-HNReQLRBG0gqUcPBZDrLx6npHE";
+        private const string link = "<LINK_TO_LOGIC_APP>";
         public MainPage()
         {
             InitializeComponent();
