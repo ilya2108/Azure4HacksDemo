@@ -19,7 +19,7 @@ namespace ExamSender
         /// <summary>
         /// Link to the Azure Logic App (to be added)
         /// </summary>
-        private const string link = "<LINK_TO_LOGIC_APP>";
+        private const string link = "https://prod-00.northeurope.logic.azure.com:443/workflows/89f2a07ab3b6498387819131fe1db8de/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=RRA6YXgCxsmOnkUN-HNReQLRBG0gqUcPBZDrLx6npHE";
         public MainPage()
         {
             InitializeComponent();
@@ -40,7 +40,7 @@ namespace ExamSender
                     {
                         name = Name.Text,
                         surname = Surname.Text,
-                        work = Work.Text
+                        text = Work.Text
                     };
 
                     var payload = JsonConvert.SerializeObject(obj);
@@ -49,10 +49,15 @@ namespace ExamSender
                     if (response.IsSuccessStatusCode)
                     {
                         var responseBody = await response.Content.ReadAsStringAsync();
-                        if (responseBody == "true")
+                        var phrases = createKeyPhrasesList(responseBody);
+                        string result = string.Empty;
+                        foreach(var phrase in phrases)
                         {
-                            await DisplayAlert("Ура!", "Работа успешно отправлена.", "OK");
+                            result += phrase + "\n";
                         }
+                        await DisplayAlert("Ура",
+                            "Список ключевых фраз\n" + result,
+                            "OK");
                     }
                     else
                         throw new InvalidOperationException();
@@ -64,6 +69,20 @@ namespace ExamSender
             }
             
             
+        }
+
+        /// <summary>
+        /// Function that creates an array of key phrases
+        /// </summary>
+        /// <param name="response">Response string from API</param>
+        /// <returns></returns>
+        string[] createKeyPhrasesList(string response)
+        {
+            response = response.Replace("[", string.Empty)
+                .Replace("]", string.Empty)
+                .Replace("\"", string.Empty);
+
+            return response.Split(',');
         }
     }
 }
