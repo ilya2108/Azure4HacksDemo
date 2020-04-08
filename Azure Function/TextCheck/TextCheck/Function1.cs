@@ -36,7 +36,7 @@ namespace TextCheck
             var sentences = text.Split('.').Length;
             var res = sentences >= 3 && text.Length >= 10;
             return res ? (ActionResult) new OkObjectResult("appropriate") 
-                : new BadRequestObjectResult("inappropriate");
+                : new OkObjectResult("inappropriate");
 
         }
     }

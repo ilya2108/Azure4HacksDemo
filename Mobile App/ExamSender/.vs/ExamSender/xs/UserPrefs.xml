@@ -1,20 +1,9 @@
 ﻿<Properties StartupConfiguration="{D664A7B0-F295-4F67-92F9-5489ED0B9979}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ExamSender/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExamSender/MainPage.xaml.cs">
     <Files>
       <File FileName="ExamSender/MainPage.xaml" Line="21" Column="29" />
       <File FileName="ExamSender/MainPage.xaml.cs" Line="23" Column="10" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ExamSender" expanded="True">
-            <Node name="ExamSender" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
