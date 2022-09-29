@@ -1,4 +1,6 @@
-# azure for Hacks demo ilya
+
+# Azure for Hacks demo
+
 В этой демонстрации будет расссмотрен один из классических сценариев приминения Azure на хакатонах.
 
 ### Disclaimer! Данное демо является раздаточным материалом Microsoft Student Partners Russia и не является рекламой. Это демо является частью выступления (презентация находится в репозитории).
@@ -59,9 +61,6 @@
 
 ## Шаг 2. Создаем БД внутри сети
 Нам придется заново создать базу данных, которую мы добавим в виртуальную сеть.
-
-
-ilya
 
 ## Шаг 3. Создаем Integration Solution Environment (ISE)
 Так как мы используем Logic App, оно не может быть подключено к виртуальной сети вручную. Поэтому на базе нашей сети мы должны создать прослойку в виде [Integration Solution Environment](https://docs.microsoft.com/ru-ru/azure/logic-apps/connect-virtual-network-vnet-isolated-environment "ISE").
