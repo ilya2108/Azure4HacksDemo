@@ -60,6 +60,9 @@
 ## Шаг 2. Создаем БД внутри сети
 Нам придется заново создать базу данных, которую мы добавим в виртуальную сеть.
 
+
+ilya
+
 ## Шаг 3. Создаем Integration Solution Environment (ISE)
 Так как мы используем Logic App, оно не может быть подключено к виртуальной сети вручную. Поэтому на базе нашей сети мы должны создать прослойку в виде [Integration Solution Environment](https://docs.microsoft.com/ru-ru/azure/logic-apps/connect-virtual-network-vnet-isolated-environment "ISE").
 
